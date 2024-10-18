@@ -6,10 +6,34 @@ body{
     color:#fdebc7;
 }
 
-h3{
-    word-spacing: 35rem;
-    text-align: center;
+.header1{
+    word-spacing: rem;
+    text-align: cente;
     font-weight: normal;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    font-family:Helvetica, sans-serif;
+}
+
+.left{
+    color:#f29cc1;
+    padding:12px;
+    text-align: left;
+}
+
+.middle{
+    color:#f29cc1;
+    padding:12px;
+    text-align: center;
+}
+a:link{
+    color: #f29cc1;
+    text-decoration:none;
+}
+.right{
+    color:#f29cc1;
+    padding:12px;
+    text-align: right;
 }
 .header{
     background-color: #fdebc7;
@@ -38,13 +62,16 @@ div{
     color:#fdebc7;
 }
 .container{
-    margin:px;
+    margin:10px;
     float: left;
     padding:20px;
     display: grid;
     grid-template-columns: 30% 30% 40%;
     column-gap: 1rem;
     position: relative;
+}
+img{
+    background-size:100% 100%;
 }
 
 .content{
