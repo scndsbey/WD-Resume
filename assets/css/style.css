@@ -7,8 +7,6 @@ body{
 }
 
 .header1{
-    word-spacing: rem;
-    text-align: cente;
     font-weight: normal;
     display: grid;
     grid-template-columns: 20% 60% 20%;
@@ -38,22 +36,34 @@ a:link{
 .header{
     background-color: #fdebc7;
     color:#f29cc1;
-    padding: 1px;
+    padding-bottom:12px;
 
+}
+img{
+    display: block;
+    margin-right: auto;
+    width:200px;
+    padding-right: 2rem;
+    float: right;
+}
+
+.right1{
+    display:block;
+    width:20%;
+    margin-right: auto;
 }
 h1{
     font-family: garamond, 'Times New Roman', Times, serif;
-    margin: 2rem;
     font-weight: normal;
-    font-size: 4rem;
-    padding-left: 2rem;
+    font-size: 5rem;
+    padding-left: 3rem;
 }
 
 h2{
     color:#5f5447;
     font-family: garamond;
     text-align: right;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: normal;
     margin-right:2rem;
 }
